@@ -7,7 +7,7 @@ A note on modifications and hacks.
 
 It's possible (and, in fact, very easy) to modify everything inside this program. The license under which it's released is GPLv3 or higher, so modding and sharing is encouraged, that is in part the purpose.
 
-To change the interface, a basic Python knowledge is required. Ideally it's also useful to understand something about object oriented programming, but nothing you can't learn with a bit of help from Youtube. The interface was made using QtDesigner, which allows to build windows and interfaces through the use of a mouse, dragging layouts, buttons, etc. The .ui file should be modified using that software, it's recommended to use the Qt5 version. It's possible to import the ui file directly from within the code, however it's also feasible to compile it in order to transform it into a common Qt5 class, using pyuic. That's what I did originally.
+To change the interface, a basic Python knowledge is required. Ideally it's also useful to understand something about object oriented programming, but nothing you can't learn with a bit of help from Youtube. The interface was made using QtDesigner, which allows you to build windows and interfaces through the use of a mouse, dragging layouts, buttons, etc. The .ui file should be modified using that software, it's recommended to use the Qt5 version. It's possible to import the ui file directly from within the code, however it's also feasible to compile it in order to transform it into a common Qt5 class, using pyuic. That's what I did originally.
 
 ## ES
 
